@@ -7,7 +7,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-weather-home',
   templateUrl: './weather-home.component.html',
-  styleUrls: ['./weather-home.component.css'],
+  styleUrls: ['./weather-home.component.scss'],
 })
 export class WeatherHomeComponent implements OnInit, OnDestroy {
   inicialNameCity = 'São Paulo';
@@ -32,11 +32,11 @@ export class WeatherHomeComponent implements OnInit, OnDestroy {
         },
         error: (error) => console.log(error),
       });
-      console.log(this.inicialNameCity)
-  }
+   }
 
   onSubmit(): void {
     this.getWeatherDatas(this.inicialNameCity);
+    this.inicialNameCity = '';
   }
 
   ngOnDestroy(): void {
