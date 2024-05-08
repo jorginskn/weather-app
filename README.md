@@ -32,6 +32,6 @@ Navegue pela interface para visualizar as condições meteorológicas atuais e a
 Utilize os ícones e informações fornecidas para se manter informado sobre o clima em sua região.
 Observações
 Este projeto é uma demonstração do uso de Angular 15 e da integração com a API WeatherAPI. Sinta-se à vontade para explorar o código-fonte e adaptá-lo conforme necessário para suas próprias necessidades.
-
+LINK DO PROJETO : https://weather-app-lemon-gamma-50.vercel.app/weather
 Para quaisquer dúvidas ou sugestões, entre em contato conosco.
 ![image](https://github.com/jorginskn/weather-app/assets/77112497/b90243cc-2bda-445a-90c6-0b3181da7492)
